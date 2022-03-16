@@ -1,4 +1,4 @@
-public class Circulo extends Figura {
+public class Circulo extends Figura implements Comparable<Circulo>{
     private double radio;
     
     public Circulo(double pradio){
